@@ -12,4 +12,8 @@ function enviarConfirmacao (convidados){
     }
 }
 
-enviarConfirmacao(convidados)
+convidados.forEach(
+    console.log(convidados[i] + ', foi desconvidado')
+)
+
+//enviarConfirmacao(convidados)
